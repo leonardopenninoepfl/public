@@ -5,3 +5,10 @@ public class MultiThreadedServer {
         // TODO
     }
 }
+class Task implements Runnable {
+
+    @Override
+    public void run() {
+        this.
+    }
+}

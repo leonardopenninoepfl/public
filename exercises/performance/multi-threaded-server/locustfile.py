@@ -1,5 +1,6 @@
 from locust import HttpUser, task
 
-
 class User(HttpUser):
-    # TODO
+    @task
+    def about(self):
+        self.client.get("/loop?")
